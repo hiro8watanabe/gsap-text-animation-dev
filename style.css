@@ -10,8 +10,11 @@ h1 {
   clip-path: inset(0 0 0 0);
   line-height: 1; /*line-heightなくしたほうがカッコ良くなります*/
   letter-spacing: -0.07em;
-  /* transform: translateY(100px);
-  opacity: 0; */
+  /* transform: translateY(0px); */
+  /* opacity: 0; */
+}
+h2 {
+  font-family: "Times New Roman", Times, serif; /*お好きなフォントを選んでください*/
 }
 
 button {
@@ -22,4 +25,14 @@ button {
 .char {
   opacity: 0;
   transform: translateY(100px);
+}
+.char2 {
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.text2 {
+  word-break: break-all;
+  width: 300px;
+  line-height: 1.2;
 }
