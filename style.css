@@ -1,0 +1,25 @@
+body {
+  background-color: teal;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif; /*お好きなフォントを選んでください*/
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+  clip-path: inset(0 0 0 0);
+  line-height: 1; /*line-heightなくしたほうがカッコ良くなります*/
+  letter-spacing: -0.07em;
+  /* transform: translateY(100px);
+  opacity: 0; */
+}
+
+button {
+  margin-top: 40px;
+  padding: 8px 12px;
+}
+
+.char {
+  opacity: 0;
+  transform: translateY(100px);
+}
