@@ -6,15 +6,19 @@ h1 {
   font-size: 40px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif; /*お好きなフォントを選んでください*/
-  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
-  clip-path: inset(0 0 0 0);
+  overflow: hidden;
   line-height: 1; /*line-heightなくしたほうがカッコ良くなります*/
   letter-spacing: -0.07em;
-  /* transform: translateY(0px); */
-  /* opacity: 0; */
 }
-h2 {
+p {
   font-family: "Times New Roman", Times, serif; /*お好きなフォントを選んでください*/
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.1;
+  overflow: hidden;
+  /* word-break: break-all;
+  width: 400px; */
+  margin: 4px 0;
 }
 
 button {
@@ -23,16 +27,20 @@ button {
 }
 
 .char {
-  opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(120%) rotate(30deg);
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
 }
 .char2 {
-  opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(120%) rotate(30deg);
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
 }
-
-.text2 {
-  word-break: break-all;
-  width: 300px;
-  line-height: 1.2;
+.char3 {
+  transform: translateY(120%) rotate(30deg);
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
 }
